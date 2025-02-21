@@ -1,29 +1,35 @@
-baseURL = "https://yolandapan02.github.io/" 
+baseURL = "https://yolandapan02.github.io/"
 languageCode = "en-us"
 title = "Xinyue 'Yolanda' Pan"
 theme = "PaperMod"
 
 [params]
-  defaultTheme = "auto"  # 自动切换浅色/深色模式
-  disableSpecial1stPost = false  # 是否禁用第一篇特殊样式
-  disableScrollToTop = false  # 是否禁用滚动到顶部按钮
+defaultTheme = "auto"
 
-  socialIcons = [
+[params.profileMode]
+enabled = true
+title = "Hi there 👋"
+subtitle = "Welcome to my website"
+imageUrl = "/static/profile.jpg"
+imageWidth = 200
+imageHeight = 200
+
+socialIcons = [
     { name = "github", url = "https://github.com/xpan4869" },
-    { name = "linkedin", url = "https://www.linkedin.com/in/xinyue-pan-02/" },
-  ]
+    { name = "linkedin", url = "https://www.linkedin.com/in/xinyue-pan-02/" }
+]
 
 [[menu.main]]
-  name = "Home"
-  url = "/"
-  weight = 1
+name = "Home"
+url = "/"
+weight = 1
 
 [[menu.main]]
-  name = "Projects"
-  url = "/projects/"
-  weight = 2
+name = "Projects"
+url = "/projects/"
+weight = 2
 
 [[menu.main]]
-  name = "GitHub"
-  url = "https://github.com/xpan4869"
-  weight = 3
+name = "GitHub"
+url = "https://github.com/xpan4869"
+weight = 3
