@@ -1,4 +1,5 @@
-baseURL: https://yolandapan02.github.io/
+# baseURL: https://yolandapan02.github.io/
+baseURL: "http://localhost:1313/"
 languageCode: en-us
 title: Yolanda's Personal Website
 theme: ["PaperMod"]
@@ -58,10 +59,10 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Hi there \U0001F44B"
+    Title: "💐 Welcome to Yolanda's website!"
     enabled: true
-    Content: >
-      Welcome to Yolanda's personal website! 
+    Content: |
+        Xinyue (Yolanda) Pan is a Master’s student in Computational Social Science at the University of Chicago, specializing in Data Science. 📊 Proficient in Python, SQL, and data visualization tools, she transforms complex data into actionable insights. With experience at NielsenIQ and IMA Financial Group, Yolanda has applied her skills in market research, predictive modeling, and strategic analysis. 🌍 Fluent in Chinese and Spanish, she combines technical expertise with a collaborative approach. 🚀 Explore her work and journey here!
 
   socialIcons:
     - name: linkedin
