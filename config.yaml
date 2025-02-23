@@ -1,5 +1,5 @@
-# baseURL: https://yolandapan02.github.io/
-baseURL: "http://localhost:1313/"
+baseURL: https://yolandapan02.github.io/
+# baseURL: "http://localhost:1313/"
 languageCode: en-us
 title: Yolanda's Personal Website
 theme: ["PaperMod"]
