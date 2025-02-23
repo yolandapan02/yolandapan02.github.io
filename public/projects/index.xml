@@ -11,30 +11,7 @@
     </image>
     <generator>Hugo -- 0.143.1</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 22 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate></lastBuildDate>
     <atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Machine Learning, Sentiment Analysis, and United HealthCare CEO Shooting</title>
-      <link>http://localhost:1313/projects/proj_uhc_1/</link>
-      <pubDate>Sat, 22 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/proj_uhc_1/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Research Question:&lt;/strong&gt; How has public opinion related to health insurance changed in the wake of the UnitedHealthcare CEO shooting?&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;RQ Formulated as an ML Task:&lt;/strong&gt; In order to see how public opinion related to health insurance has changed in the wake of the UnitedHealthcare CEO shooting, we will conduct a machine learning classification task to predict whether Reddit posts have positive, negative, or neutral sentiments.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Data Collection:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;arctic_shift&lt;/li&gt;
-&lt;li&gt;Raw data downloads in .jsonl format&lt;/li&gt;
-&lt;li&gt;Document contains dictionaries of data
-related to each comment, including
-metadata, date posted (in unicode
-format), username of poster, and text
-from the post&lt;/li&gt;
-&lt;li&gt;Our dataset: a dictionary mapping each
-unicode date (key) to its corresponding
-text content (value)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Data Labeling:&lt;/strong&gt;
-Using a stratified sampling method, we selected a random subset of 1,000 comments for hand-labeling, which we then used to train our model.&lt;/p&gt;</description>
-    </item>
   </channel>
 </rss>
