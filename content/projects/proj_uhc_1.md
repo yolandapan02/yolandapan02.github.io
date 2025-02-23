@@ -1,7 +1,7 @@
 ---
 title: "Machine Learning, Sentiment Analysis, and United HealthCare CEO Shooting"
 date: 2025-02-22
-draft: true
+draft: false
 ---
 
 **Research Question:** How has public opinion related to health insurance changed in the wake of the UnitedHealthcare CEO shooting?
