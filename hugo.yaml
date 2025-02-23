@@ -1,0 +1,118 @@
+baseURL: https://yolandapan02.github.io/
+languageCode: en-us
+title: Yolanda's Personal Website
+theme: ["PaperMod"]
+
+enableRobotsTXT: true # 是否生成 robots.txt 文件（用于搜索引擎抓取）
+buildDrafts: false # 是否构建草稿文章。
+buildFuture: false # 是否构建未来日期的文章。
+buildExpired: false # 是否构建过期日期的文章。
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: ExampleSite
+  description: "This is a personal website for Xinyue (Yolanda) Pan"
+  keywords: [Portfolio]
+  author: Xinyue Pan
+  images: ["<link or path of image for opengraph, twitter-cards>"]
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: false
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  assets:
+    params:
+      customCSS: ["/css/custom.css"]
+    # disableHLJS: true # to disable highlight.js
+    # disableFingerprinting: true
+    favicon: "<link / abs url>"
+    favicon16x16: "<link / abs url>"
+    favicon32x32: "<link / abs url>"
+    apple_touch_icon: "<link / abs url>"
+    safari_pinned_tab: "<link / abs url>"
+    
+
+  label:
+    text: "Home"
+    icon: /apple-touch-icon.png
+    iconHeight: 35
+
+  # home-info mode
+  homeInfoParams:
+    Title: "Hi there \U0001F44B"
+    enabled: true
+    Content: >
+      Welcome to Yolanda's personal website! 
+
+  socialIcons:
+    - name: linkedin
+      url: "https://www.linkedin.com/in/xinyue-pan-02/"
+    - name: github
+      url: "https://github.com/xpan4869"
+
+  cover:
+    hidden: true # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: true # hide on single page
+
+  editPost:
+    URL: "https://github.com/yolandapan02/yolandapan02.github.io/content"
+    Text: "Suggest Changes"  # 正确：移除多余的字符
+    appendFilePath: true
+
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    limit: 10
+    keys: ["title", "permalink", "summary", "content"]
+  
+menu:
+  main:
+    - identifier: projects
+      name: projects
+      url: /projects/
+      weight: 10
+    - identifier: github
+      name: github
+      url: "https://github.com/xpan4869"
+      weight: 20
+    - identifier: interests
+      name: interests
+      url: /interests/
+      weight: 30
+
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+pygmentsUseClasses: true
+markup:
+  highlight:
+    noClasses: false
+    # anchorLineNos: true
+    # codeFences: true
+    # guessSyntax: true
+    lineNos: true
+    style: monokai
