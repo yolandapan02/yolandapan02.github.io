@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My Projects on Yolanda&#39;s Personal Website</title>
+    <link>https://yolandapan02.github.io/projects/</link>
+    <description>Recent content in My Projects on Yolanda&#39;s Personal Website</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 22 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://yolandapan02.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Beyond Borders: Pechoin&#39;s Global Expansion Strategy from Malaysia to Southeast Asia</title>
+      <link>https://yolandapan02.github.io/projects/ow_case_competition/</link>
+      <pubDate>Sat, 22 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://yolandapan02.github.io/projects/ow_case_competition/</guid>
+      <description>&lt;style&gt;&#xA;    .project-intro {&#xA;        background-color: #f8f9fa;&#xA;        padding: 25px;&#xA;        border-left: 4px solid #4a4a4a;&#xA;        margin-bottom: 20px;&#xA;        line-height: 1.8;&#xA;    }&#xA;&lt;/style&gt;&#xA;&#xA;&lt;div class=&#34;project-intro&#34;&gt;&#xA;    &#xA;    &lt;p&gt;This project represents comprehensive strategic analysis for Pechoin, a leading Chinese skincare brand. As team leader for this Oliver Wyman Impact Competition entry, I developed a data-driven expansion strategy identifying Malaysia as the optimal entry point into Southeast Asian markets based on consumer preferences, competitive landscape, and cultural alignment.&lt;/p&gt;&#xA;&#xA;    &lt;p&gt;The project addressed critical business challenges through quantitative analysis of beauty industry trends and consumer data. Our strategy integrated a three-pillar brand positioning, tailored product matrix, omni-channel approach, and comprehensive supply chain solution. Financial modeling projected a pathway to $20 million in annual profits by 2030, with planned expansion to Singapore and Indonesia in years 3-5, demonstrating how systematic market analysis creates actionable strategies in competitive markets.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Machine Learning, Sentiment Analysis, and United HealthCare CEO Shooting</title>
+      <link>https://yolandapan02.github.io/projects/proj_uhc_1/</link>
+      <pubDate>Sat, 22 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://yolandapan02.github.io/projects/proj_uhc_1/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Research Question:&lt;/strong&gt; How has public opinion related to health insurance changed in the wake of the UnitedHealthcare CEO shooting?&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;RQ Formulated as an ML Task:&lt;/strong&gt; In order to see how public opinion related to health insurance has changed in the wake of the UnitedHealthcare CEO shooting, we will conduct a machine learning classification task to predict whether Reddit posts have positive, negative, or neutral sentiments.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Data Collection:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;arctic_shift&lt;/li&gt;&#xA;&lt;li&gt;Raw data downloads in .jsonl format&lt;/li&gt;&#xA;&lt;li&gt;Document contains dictionaries of data&#xA;related to each comment, including&#xA;metadata, date posted (in unicode&#xA;format), username of poster, and text&#xA;from the post&lt;/li&gt;&#xA;&lt;li&gt;Our dataset: a dictionary mapping each&#xA;unicode date (key) to its corresponding&#xA;text content (value)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Data Labeling:&lt;/strong&gt;&#xA;Using a stratified sampling method, we selected a random subset of 1,000 comments for hand-labeling, which we then used to train our model.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
