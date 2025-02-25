@@ -1,3 +1,0 @@
-User-agent: *
-Disallow:
-Sitemap: https://yolandapan02.github.io/sitemap.xml
