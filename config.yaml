@@ -95,17 +95,13 @@ params:
 menu:
   main:
     - identifier: projects
-      name: projects
+      name: Projects
       url: /projects/
       weight: 10
     - identifier: github
-      name: github
+      name: GitHub
       url: "https://github.com/xpan4869"
       weight: 20
-    - identifier: interests
-      name: interests
-      url: /interests/
-      weight: 30
 
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
